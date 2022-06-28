@@ -1,0 +1,69 @@
+
+.nav{
+    width: 100vw;
+    background-color: #00A2E8;
+    height: 80px;
+    text-align: center;
+}
+
+.nav h1{
+    color: #ffffff;
+    padding-top: 25px;
+}
+.section{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.login:hover{
+    box-shadow: 0px 2px 10px;
+}
+
+
+
+.form{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+#uname{
+    display: block;
+    width: 24em;
+    height: 30px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#pswd{
+    display: block;
+    width: 24em;
+    height: 30px;
+    padding: 10px;
+    margin-top: 20px ;
+}
+
+#login-btn{
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+    width: 20em;
+    height: 50px;
+    transition: .2s;
+    background-color: #00A2E8;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 15px;
+    border-color: #00A2E8;
+}
+
+#login-btn:hover{
+    background-color: #8cdcff;
+    transition: .3s;
+    border-color: #181818;
+}

@@ -1,0 +1,228 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f3f8e7;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.brand img{
+    position: absolute;
+    height: 60px;
+    width: auto;
+    margin: 15px 0 0 100px;
+}
+.brand h1{
+    color: #ffffff;
+    position: absolute;
+    margin: 25px 0 0 20px;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 860px) {
+    .home-nav{
+        height: 180px;
+        width: 100;    
+    }
+    
+}
+
+.user{
+    position: absolute;
+    float: right;
+}
+
+.action-list img{
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;;
+}
+
+.current-user{
+    font-size: 20px;
+    display: inline;
+    width: 10px;
+    height: 70px;
+}
+
+.home-nav{
+    height: 80px;
+    width: 100;
+    background-color: #00A2E8;
+    transition: .3s;
+}
+
+#logout-btn{
+    width: 80px;
+    height: 45px;
+    transition: .2s;
+    background-color: #8cdcff;
+    border-radius: 15px;
+}
+
+#logout-btn:hover{
+    background-color: #000000;
+    transition: .3s;
+    color: #ffffff;
+}
+
+.actions{
+    height: 60px;
+    float: right;
+}
+
+.actions ul{
+    list-style-type: none;
+    padding: 0px 0px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.actions ul li{
+    margin: 20px 50px 0 25px;
+    height: 47px;
+    color: #d3d3d3;
+}
+
+.actions ul li:hover{
+    cursor: pointer;
+}    
+
+.actions ul li a{
+    font-size: 1.25vw;
+    text-decoration: none;
+    color: #ffffff;
+    float: right;
+}
+
+.actions ul li a:hover{
+    cursor: pointer;
+    color: #010101;
+}
+
+.action-list p{
+    color: #ffffff;
+    margin: 10px 10px 0 0;
+}
+
+.ticket-form{
+        position: relative;
+        top: 20px;
+        height: 26em;
+        width: 50em;
+        left: 22em;
+        box-shadow: 0px 0px 5px 0px;
+        padding: 10px;
+}
+
+.input{
+    margin: 20px;
+}
+
+#date{
+    padding: 15px;
+    margin-left: 100px;
+
+}
+#passanger{
+    padding: 15px;
+    width: 200px;
+}
+#bus-origin{
+    padding: 15px;
+    margin: 0 100px 0 80px;
+    width: 150px;
+}
+#bus-destination{
+    padding: 15px;
+    margin-left: 52px;
+    width: 150px;
+}
+#next{
+    margin: 20px 10px 10px 0;
+    float: right;
+    height: 40px;
+    width: 80px;
+}
+
+.side-nav{
+    position: absolute;
+    height: 100%;
+    width: 250px;
+    display: inline;
+    background-color: #8cdcff;
+    box-shadow: 2px 8px 25px 0px; 
+}
+
+.side-list{
+    font-size: 15px;
+    padding: 20px;
+    list-style-type: none;
+    margin-top: 50px;
+    background-color: #8cdcff;
+}
+
+.side-list li{
+    width: 180px;
+    color: #f3f8e7;
+    text-align: center;
+    margin: 40px 0px 40px 5px;
+    padding: 10px;
+    background-color: #00A2E8;
+    border-radius: 26px;
+    transition: .3s;
+
+}
+
+.side-list li:hover{
+    background-color: #000000;
+    transition: .3s;
+
+}
+
+.side-list li a{
+    color: #f3f8e7;
+    font-size: 12px;
+}
+
+.side-list .active{
+    background-color: #0a0a0a;
+}
+
+.landing{
+    position: relative;
+    top: 20px;
+    height: 30em;
+    width: 51em;
+    left: 22em;
+    box-shadow: 0px 0px 5px 0px;
+}
+
+.landing h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #00A2E8;
+    box-shadow: 0px 0px 5px 0px;
+    padding: 15px;
+}
+
+.available h2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.available-dest{
+    padding: 40px;
+    margin-top: 50px;
+}
