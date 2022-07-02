@@ -1,5 +1,5 @@
 # Express Bus
-Bus Ticket Management System
+Passenger registration & Ticket selling for a Bus
 
 <br>
 <img
@@ -13,11 +13,4 @@ Bus Ticket Management System
 <li>Manage Bus (Assign Bus & Check Bus)</li>
 <li>Register an agent</li>
 <li>Check Available seats of a Bus</li>
-<br>
-<h2><u>Technology Stack<u></h2>
-<h3>Languages</h3>
-<li>HTML/CSS</li>
-<li>PHP</li>
-<h3>Tools</h3>
-<li>XAMPP</li>
 
